@@ -1,0 +1,21 @@
+@import './base.css';
+@import 'tailwindcss';
+
+#app {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block;
+  }
+
+  #app {
+    display: block;
+    padding: 0 2rem;
+  }
+}
